@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sonic (Your AI Agent)\n"
+"POT-Creation-Date: 2025-12-10 10:13+0330\n"
+"PO-Revision-Date: 2025-12-10 10:31+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sonic.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/ai-content-creator.php:36
+msgid "Specify the article title"
+msgstr "Geben Sie den Artikeltitel an"
+
+#: admin/ai-content-creator.php:38
+#, fuzzy
+#| msgid ""
+#| "The article title is the most important factor in determining SEO. You can "
+#| "use <a href=\"#\">this article</a> for guidance in selecting one."
+msgid ""
+"The article title is the most important factor in determining SEO. You can "
+"use <a target=\"_blank\" href=\"https://niklinkagency.com/blog/search-engine-"
+"optimization/choosing-an-article-title-for-seo-success/\">this article</a> "
+"for guidance in selecting one."
+msgstr ""
+"Der Artikeltitel ist der wichtigste Faktor für die Suchmaschinenoptimierung. "
+"Sie können <a href=\"#\">diesen Artikel</a> als Orientierungshilfe bei der "
+"Auswahl nutzen."
+
+#: admin/ai-content-creator.php:46
+msgid "Article slug"
+msgstr "Artikel Slug"
+
+#: admin/ai-content-creator.php:48
+msgid "You can leave it empty"
+msgstr "Sie können es leer lassen."
+
+#: admin/ai-content-creator.php:58
+msgid "Specify your keywords"
+msgstr "Geben Sie Ihre Schlüsselwörter an."
+
+#: admin/ai-content-creator.php:59
+msgid ""
+"For example: buy mobile phone, online English training, online gold purchase, "
+"water pump price(Separate keywords with ENTER)"
+msgstr ""
+"Beispiele: Handy kaufen, Englisch-Online-Kurs, Gold online kaufen, Preis für "
+"eine Wasserpumpe (Schlüsselwörter mit der Eingabetaste trennen)"
+
+#: admin/ai-content-creator.php:70
+msgid "Specify the article category"
+msgstr "Geben Sie die Artikelkategorie an."
+
+#: admin/ai-content-creator.php:71
+msgid "Select the category in which the article will be published."
+msgstr ""
+"Wählen Sie die Kategorie aus, in der der Artikel veröffentlicht werden soll."
+
+#: admin/ai-content-creator.php:93
+msgid "What should the tone of the article be?"
+msgstr "Welchen Ton sollte der Artikel haben?"
+
+#: admin/ai-content-creator.php:96
+msgid "Friendly"
+msgstr "Freundlich"
+
+#: admin/ai-content-creator.php:98
+msgid "Formal"
+msgstr "Formell"
+
+#: admin/ai-content-creator.php:102
+msgid "Minimum word count"
+msgstr "Mindestwortzahl"
+
+#: admin/ai-content-creator.php:106
+msgid "Maximum word count"
+msgstr "Maximale Wortanzahl"
+
+#: admin/ai-content-creator.php:110
+msgid "Who is your audience?"
+msgstr "Wer ist Ihre Zielgruppe?"
+
+#: admin/ai-content-creator.php:112
+msgid "For example: young people, professionals, parents, students, or fans"
+msgstr "Zum Beispiel: Jugendliche, Berufstätige, Eltern, Studenten oder Fans"
+
+#: admin/ai-content-creator.php:117
+msgid "Specify related links in the article"
+msgstr "Fügen Sie im Artikel verwandte Links hinzu."
+
+#: admin/ai-content-creator.php:118
+msgid "Specify the links you want to be referenced in the article"
+msgstr "Geben Sie die Links an, auf die im Artikel verwiesen werden soll."
+
+#: admin/ai-content-creator.php:128 admin/keyword_research.php:87
+msgid "Do you need a featured image?"
+msgstr "Benötigen Sie ein Titelbild?"
+
+#: admin/ai-content-creator.php:131 admin/keyword_research.php:91
+msgid "2 tokens will be used"
+msgstr "Es werden 2 Token verwendet."
+
+#: admin/ai-content-creator.php:137
+msgid "Which Ai should be used?"
+msgstr "Welche KI sollte verwendet werden?"
+
+#: admin/ai-content-creator.php:141
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: admin/ai-content-creator.php:145 src/Base.php:42
+msgid "Gemini"
+msgstr "Gemini"
+
+#: admin/ai-content-creator.php:150
+msgid "Specify the post publication status."
+msgstr "Geben Sie den Veröffentlichungsstatus an."
+
+#: admin/ai-content-creator.php:154
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: admin/ai-content-creator.php:158
+msgid "Draft"
+msgstr "Entwurf"
+
+#: admin/ai-content-creator.php:162
+msgid "Schedule publication (coming soon)"
+msgstr "Veröffentlichung des Zeitplans (in Kürze)"
+
+#: admin/ai-content-creator.php:172
+msgid "Select language"
+msgstr "Sprache auswählen"
+
+#: admin/ai-content-creator.php:184
+msgid "Creating content"
+msgstr "Inhalte erstellen"
+
+#: admin/ai-content-creator.php:201
+msgid "Previous Step"
+msgstr "Vorheriger Schritt"
+
+#: admin/ai-content-creator.php:205 callbacks/NikCallBacks.php:19
+msgid "Next Step"
+msgstr "Nächster Schritt"
+
+#: admin/ai-content-creator.php:228 admin/keyword_research.php:140
+#: admin/main.php:146 admin/posts.php:167
+msgid "close hint"
+msgstr "Hinweis schließen"
+
+#: admin/ai-content-creator.php:229 admin/keyword_research.php:141
+#: admin/main.php:147 admin/posts.php:168
+msgid "Don`t show hint"
+msgstr "Zeig keinen Hinweis"
+
+#: admin/keyword_research.php:28
+msgid ""
+"to use this option first you have to write a description about your site in "
+"settings."
+msgstr ""
+"Um diese Option nutzen zu können, müssen Sie zunächst in den Einstellungen "
+"eine Beschreibung Ihrer Website eingeben."
+
+#: admin/keyword_research.php:29
+msgid "click here"
+msgstr "klicken Sie hier"
+
+#: admin/keyword_research.php:33
+msgid "AI Model"
+msgstr "KI-Modell"
+
+#: admin/keyword_research.php:53
+msgid "suggest post title"
+msgstr "Vorschlag für einen Beitragstitel"
+
+#: admin/keyword_research.php:56
+msgid "Download Excel"
+msgstr "Excel herunterladen"
+
+#: admin/keyword_research.php:70 callbacks/Menu.php:36 callbacks/Menu.php:37
+#: callbacks/NikCallBacks.php:32
+msgid "Create Post"
+msgstr "Beitrag erstellen"
+
+#: admin/keyword_research.php:71
+msgid "Go to advanced post create ›"
+msgstr "Gehe zu Erweiterte Beitragserstellung ›"
+
+#: admin/keyword_research.php:74
+msgid "Article Title"
+msgstr "Artikelüberschrift"
+
+#: admin/keyword_research.php:78 admin/posts.php:195
+msgid "Select the Ai model"
+msgstr "Wählen Sie das Ai-Modell aus"
+
+#: admin/keyword_research.php:96
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: admin/keyword_research.php:100
+msgid "Post Category"
+msgstr "Beitragskategorie"
+
+#: admin/keyword_research.php:121
+msgid "Create post"
+msgstr "Beitrag erstellen"
+
+#: admin/keyword_research.php:122 admin/posts.php:213 admin/posts.php:233
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: admin/keyword_research.php:130
+msgid "post is being generated!"
+msgstr "Der Beitrag wird generiert!"
+
+#: admin/keyword_research.php:131
+msgid "show status"
+msgstr "Status anzeigen"
+
+#: admin/main.php:14
+msgid "API Key saved successfully."
+msgstr "API-Schlüssel erfolgreich gespeichert."
+
+#: admin/main.php:26
+msgid "REST API is disabled in your wordpress or theme or by any plugin."
+msgstr ""
+"Die REST-API ist in Ihrer WordPress-Installation, Ihrem Theme oder durch ein "
+"Plugin deaktiviert."
+
+#: admin/main.php:32
+msgid "you should enable default publish post category. settings -> writing"
+msgstr ""
+"Sie sollten die Standard-Beitragskategorie aktivieren. Einstellungen → "
+"Schreiben"
+
+#: admin/main.php:68
+msgid "Sonic Settings"
+msgstr "Klangeinstellungen"
+
+#: admin/main.php:72
+msgid ""
+"Before you start, you must receive your API code from Nicklink and then "
+"register it. To do this, simply click on the Get API KEY button at the bottom "
+"of this page."
+msgstr ""
+"Bevor Sie beginnen, müssen Sie Ihren API-Code von Nicklink erhalten und ihn "
+"anschließend registrieren. Klicken Sie dazu einfach auf die Schaltfläche „API-"
+"Schlüssel anfordern“ unten auf dieser Seite."
+
+#: admin/main.php:88
+msgid "API Key"
+msgstr "API-Schlüssel"
+
+#: admin/main.php:97
+msgid "Site Description"
+msgstr "Standortbeschreibung"
+
+#: admin/main.php:98
+msgid "describe your business in a few sentences"
+msgstr "Beschreiben Sie Ihr Unternehmen in wenigen Sätzen"
+
+#: admin/main.php:100
+#, fuzzy
+#| msgid "This option is required for keyword research"
+msgid "This option is required for Assistant tools"
+msgstr "Diese Option ist für die Keyword-Recherche erforderlich."
+
+#: admin/main.php:110
+msgid "View tutorial"
+msgstr "Tutorial ansehen"
+
+#: admin/main.php:112
+msgid "Get API key"
+msgstr "API-Schlüssel abrufen"
+
+#: admin/main.php:118
+msgid "Remaining Tokens: "
+msgstr "Verbleibende Token:"
+
+#: admin/main.php:121
+msgid ""
+"Insufficient tokens. in order to use the application you have to buy more "
+"tokens."
+msgstr ""
+"Nicht genügend Tokens. Um die Anwendung nutzen zu können, müssen Sie weitere "
+"Tokens kaufen."
+
+#: admin/main.php:124
+msgid "API key is not valid or the account suspended"
+msgstr "Der API-Schlüssel ist ungültig oder das Konto wurde gesperrt."
+
+#: admin/posts.php:31 callbacks/NikCallBacks.php:31
+msgid "Updating Posts"
+msgstr "Beiträge aktualisieren"
+
+#: admin/posts.php:36 admin/posts.php:99 callbacks/NikCallBacks.php:26
+msgid "Title"
+msgstr "Titel"
+
+#: admin/posts.php:37 admin/posts.php:100 callbacks/NikCallBacks.php:27
+msgid "Publish Date"
+msgstr "Veröffentlichungsdatum"
+
+#: admin/posts.php:38 admin/posts.php:101 callbacks/NikCallBacks.php:28
+msgid "Modify Date"
+msgstr "Änderungsdatum"
+
+#: admin/posts.php:39 admin/posts.php:102 callbacks/NikCallBacks.php:29
+msgid "Author"
+msgstr "Autor"
+
+#: admin/posts.php:40 admin/posts.php:103 callbacks/NikCallBacks.php:30
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/posts.php:53 callbacks/NikCallBacks.php:24
+msgid "Cancel Process"
+msgstr "Vorgang abbrechen"
+
+#: admin/posts.php:94
+msgid "All Posts"
+msgstr "Alle Beiträge"
+
+#: admin/posts.php:116
+msgid "New article"
+msgstr "Neuer Artikel"
+
+#: admin/posts.php:117
+msgid "Update suggested"
+msgstr "Aktualisierung vorgeschlagen"
+
+#: admin/posts.php:118
+msgid "Old content"
+msgstr "Alter Inhalt"
+
+#: admin/posts.php:130
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: admin/posts.php:148
+msgid "« Prev Page"
+msgstr "« Vorherige Seite"
+
+#: admin/posts.php:149
+msgid "Next Page »"
+msgstr "Nächste Seite »"
+
+#: admin/posts.php:155
+msgid "No posts found."
+msgstr "Keine Beiträge gefunden."
+
+#: admin/posts.php:182
+msgid "Update Post"
+msgstr "Update-Beitrag"
+
+#: admin/posts.php:185
+msgid "Specify the update type (2 tokens)"
+msgstr "Geben Sie den Aktualisierungstyp an (2 Token)."
+
+#: admin/posts.php:188
+msgid "Partial update"
+msgstr "Teilaktualisierung"
+
+#: admin/posts.php:193
+msgid "Whole article update"
+msgstr "Aktualisierung des gesamten Artikels"
+
+#: admin/posts.php:208
+msgid ""
+"⚠️ Whole article updates are not recommended unless you know exactly what you "
+"are doing!"
+msgstr ""
+"⚠️ Von Aktualisierungen ganzer Artikel wird abgeraten, es sei denn, Sie wissen "
+"genau, was Sie tun!"
+
+#: admin/posts.php:212 admin/posts.php:232
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: admin/posts.php:225
+msgid "Cancel update"
+msgstr "Aktualisierung abbrechen"
+
+#: admin/posts.php:228
+msgid " By this action, used tokens will not be refunded!"
+msgstr "Durch diese Aktion werden bereits verwendete Token nicht erstattet!"
+
+#: callbacks/Menu.php:16 callbacks/Menu.php:17
+msgid "Sonic"
+msgstr "Sonic"
+
+#: callbacks/Menu.php:26 callbacks/Menu.php:27 sonic.php:18
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: callbacks/Menu.php:45 callbacks/Menu.php:46
+msgid "Assistant"
+msgstr ""
+
+#: callbacks/Menu.php:54 callbacks/Menu.php:55
+msgid "Posts"
+msgstr "Beiträge"
+
+#: callbacks/NikCallBacks.php:17
+msgid "show posts"
+msgstr "Beiträge anzeigen"
+
+#: callbacks/NikCallBacks.php:18
+msgid "Final Submit"
+msgstr "Abschließende Einreichung"
+
+#: callbacks/NikCallBacks.php:20
+msgid "Link Title"
+msgstr "Linktitel"
+
+#: callbacks/NikCallBacks.php:21
+msgid "Destination URL"
+msgstr "Ziel-URL"
+
+#: callbacks/NikCallBacks.php:22
+msgid "Recently updated"
+msgstr "Kürzlich aktualisiert"
+
+#: callbacks/NikCallBacks.php:23
+msgid "Updating"
+msgstr "Aktualisierung"
+
+#: callbacks/NikCallBacks.php:25
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: callbacks/NikCallBacks.php:33
+msgid "Post Requested"
+msgstr "Beitrag angefordert"
+
+#: src/ApiHandler.php:22 src/ApiHandler.php:38
+msgid "Please insert your API key in settings"
+msgstr "Bitte fügen Sie Ihren API-Schlüssel in den Einstellungen ein."
+
+#: src/ApiHandler.php:68
+msgid "Title is required"
+msgstr "Ein Titel ist erforderlich"
+
+#: src/ApiHandler.php:117
+msgid "Success! Post is being Generated, You can leave this page."
+msgstr "Erfolg! Der Beitrag wird generiert. Sie können diese Seite verlassen."
+
+#: src/ApiHandler.php:132
+msgid "Post didnt create, please try again"
+msgstr "Beitrag konnte nicht erstellt werden, bitte versuchen Sie es erneut."
+
+#: src/ApiHandler.php:196
+msgid ""
+"Post is being Updated, You can leave this page. we will inform you once it is "
+"ready"
+msgstr ""
+"Dieser Beitrag wird aktualisiert. Sie können diese Seite verlassen. Wir "
+"informieren Sie, sobald er fertig ist."
+
+#: src/ApiHandler.php:221
+msgid "Update canceled"
+msgstr "Aktualisierung abgebrochen"
+
+#: src/ApiHandler.php:258
+msgid "No posts found"
+msgstr "Keine Beiträge gefunden"
+
+#: src/ApiHandler.php:272
+msgid "Please fill site description in settings"
+msgstr "Bitte füllen Sie die Websitebeschreibung in den Einstellungen aus."
+
+#: src/ApiHandler.php:320
+msgid "Some thing went Wrong! please try again later or choose another model!"
+msgstr ""
+"Etwas ist schiefgelaufen! Bitte versuchen Sie es später erneut oder wählen "
+"Sie ein anderes Modell!"
+
+#: src/Base.php:38
+msgid "GPT-5"
+msgstr "GPT-5"
+
+#: src/Base.php:48
+msgid ""
+"Thank you for choosing Sonic! Here you should enter your API key. once it "
+"approves you have access to all of our tools. Hope you enjoy!"
+msgstr ""
+"Vielen Dank, dass Sie sich für Sonic entschieden haben! Hier geben Sie bitte "
+"Ihren API-Schlüssel ein. Nach der Genehmigung haben Sie Zugriff auf alle "
+"unsere Tools. Viel Spaß damit!"
+
+#: src/Base.php:49
+msgid ""
+"Easily create a SEO-optimized post with this tool, using your preferred title "
+"and custom settings."
+msgstr ""
+"Mit diesem Tool erstellen Sie ganz einfach einen SEO-optimierten Beitrag mit "
+"Ihrem Wunschtitel und individuellen Einstellungen."
+
+#: src/Base.php:50
+msgid ""
+"This tool analyzes your website and posts, then suggest new post titles for "
+"your website. You can even publish the new post instantly!"
+msgstr ""
+"Dieses Tool analysiert Ihre Website und Ihre Beiträge und schlägt Ihnen "
+"anschließend neue Beitragstitel vor. Sie können die neuen Beiträge sogar "
+"sofort veröffentlichen!"
+
+#: src/Base.php:51
+msgid ""
+"Here you can see published posts and the posts being generated. it could take "
+"some time to create a post but we assure you the outcome is spectacular"
+msgstr ""
+"Hier sehen Sie veröffentlichte und aktuell generierte Beiträge. Die "
+"Erstellung eines Beitrags kann etwas Zeit in Anspruch nehmen, aber wir "
+"versichern Ihnen, dass das Ergebnis spektakulär sein wird."
+
+#: src/Receive.php:57
+msgid "Post successfully created"
+msgstr "Beitrag erfolgreich erstellt"
+
+#: src/Receive.php:64
+msgid "Post creation failed."
+msgstr "Beitragserstellung fehlgeschlagen."
+
+#: src/Receive.php:83
+msgid "API Key is not valid"
+msgstr "Der API-Schlüssel ist ungültig."
+
+#: src/Receive.php:93
+msgid "post ID is incorrect"
+msgstr "Die Beitrags-ID ist falsch."
+
+#: src/Receive.php:98
+msgid "post is not authorized to edit"
+msgstr "Der Beitrag darf nicht bearbeitet werden"
+
+#. Plugin Name of the plugin/theme
+msgid "Sonic (Your AI Agent)"
+msgstr "Sonic (Dein KI-Agent)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://niklinkagency.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A sophisticated AI-powered plugin that generates new posts and seamlessly "
+"updates existing content on your website. With just one Click!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Niklink"
+msgstr ""
+
+#~ msgid "Smart Writer"
+#~ msgstr "Intelligenter Autor"

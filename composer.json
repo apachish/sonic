@@ -1,0 +1,16 @@
+{
+    "name": "niklink/niklink-seo-agent",
+    "autoload": {
+        "psr-4": {
+            "NIKSEO\\src\\": "src/",
+            "NIKSEO\\callbacks\\": "callbacks/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Navid Rezaei",
+            "email": "103814446+rnavid71@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

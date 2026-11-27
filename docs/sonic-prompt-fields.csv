@@ -1,0 +1,76 @@
+category,subcategory,name,form_field,api_field,type,required,default,values,source_file,destination,description_fa
+project,file,sonic.php,,,entrypoint,,,,sonic.php,WordPress,نقطه ورود پلاگین
+project,file,Base.php,,,class,,,,src/Base.php,bootstrap,ثابت‌ها و راه‌اندازی
+project,file,ApiHandler.php,,,class,,,,src/ApiHandler.php,ajax+api,مدیریت درخواست‌ها و ارسال به Niklink
+project,file,Receive.php,,,class,,,,src/Receive.php,rest-callback,دریافت محتوای تولیدشده
+project,file,PostPublisher.php,,,class,,,,src/PostPublisher.php,wordpress,انتشار و آپدیت پست
+project,file,Menu.php,,,class,,,,callbacks/Menu.php,admin-menu,منوهای پنل ادمین
+project,file,NikCallBacks.php,,,class,,,,callbacks/NikCallBacks.php,admin-ui,enqueue و render صفحات
+project,file,admin-js.js,,,script,,,,assets/js/admin-js.js,frontend,Ajax و تعامل UI
+project,file,main.php,,,view,,,,admin/main.php,settings,صفحه تنظیمات
+project,file,ai-content-creator.php,,,view,,,,admin/ai-content-creator.php,content-create,فرم ساخت مقاله
+project,file,keyword_research.php,,,view,,,,admin/keyword_research.php,assistant,صفحه Assistant
+project,file,posts.php,,,view,,,,admin/posts.php,posts,لیست و آپدیت پست‌ها
+api_endpoint,external,Content Create,,NIK_CONTENT_CREATE_ROUTE,POST,,,,src/Base.php,niklinkagency.com/wp-json/nik/v1/seo,ساخت و آپدیت مقاله
+api_endpoint,external,Keyword Research,,NIK_KEYWORD_RESEARCH_ROUTE,POST,,,,src/Base.php,niklinkagency.com/wp-json/nik/v1/keyword,پیشنهاد عنوان
+api_endpoint,external,User Assets,,NIK_USER_ASSET_ROUTE,POST,,,,src/Base.php,niklinkagency.com/wp-json/nik/v1/user,اعتبار کلید و توکن
+api_endpoint,external,Tools,,NIK_TOOLS,POST,,,,src/Base.php,niklinkagency.com/wp-json/nik/v1/tools,تولید Site Description
+api_endpoint,internal,Post Update Callback,,/wp-json/sonic/v1/post/update,POST,,,,src/Receive.php,wordpress-rest,دریافت HTML از Niklink
+ajax_type,handler,single-article,type,single-article,string,,,,assets/js/admin-js.js,ApiHandler::handle_request,ساخت مقاله جدید
+ajax_type,handler,update,type,update,string,,,,assets/js/admin-js.js,ApiHandler::update_article,آپدیت پست موجود
+ajax_type,handler,cancel-update,type,cancel-update,string,,,,assets/js/admin-js.js,ApiHandler::cancel_update,لغو آپدیت
+ajax_type,handler,check_status,type,check_status,string,,,,assets/js/admin-js.js,ApiHandler::return_processing_posts,بررسی پست‌های processing
+ajax_type,handler,keyword_research,type,keyword_research,string,,,,assets/js/admin-js.js,ApiHandler::return_keyword_research,پیشنهاد عنوان
+ajax_type,handler,site_description,type,site_description,string,,,,assets/js/admin-js.js,ApiHandler::return_site_description,تولید توضیح سایت
+ajax_type,handler,disable_hint,type,disable_hint,string,,,,assets/js/admin-js.js,ApiHandler::disable_hint,غیرفعال hint
+prompt_field,content_create,Article Title,title,title,string,yes,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,عنوان مقاله
+prompt_field,content_create,Article Slug,slug,slug,string,no,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,نامک URL
+prompt_field,content_create,Keywords,keywords,keywords,array,no,,,admin-js.js,NIK_CONTENT_CREATE_ROUTE,کلمات کلیدی (tag input)
+prompt_field,content_create,Categories,cats[],cats,array,no,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,دسته‌بندی پست
+prompt_field,content_create,Tone,tone,tone,string,no,,warm|official,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,لحن: صمیمی یا رسمی
+prompt_field,content_create,Min Words,min-words,minWords,number,no,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,حداقل تعداد کلمات
+prompt_field,content_create,Max Words,max-words,maxWords,number,no,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,حداکثر تعداد کلمات
+prompt_field,content_create,Audience,audience,audience,string,no,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,مخاطب هدف
+prompt_field,content_create,Custom Links,relevant-title[]+relevant-link[],customLinks,array,no,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,لینک‌های داخلی مقاله
+prompt_field,content_create,Article Images,article-img,articleImages,string,no,0,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,تعداد تصویر داخل مقاله
+prompt_field,content_create,Meta Description,meta-description-input,metaDescription,flag,no,1,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,تولید meta description (نیاز SEO plugin)
+prompt_field,content_create,Featured Image,featured-image,featuredImage,flag,no,0,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,تصویر شاخص (+1 توکن)
+prompt_field,content_create,AI Model,model,model,string,no,gpt,gpt|gemini,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,مدل AI
+prompt_field,content_create,Language,lang,lang,string,no,fa_IR,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,زبان مقاله
+prompt_field,content_create,Post Status,post-status,post-status,string,no,publish,publish|draft|pending,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,وضعیت انتشار
+prompt_field,content_create,Custom Prompt,custom-prompt,customPrompt,string,no,,,admin/ai-content-creator.php,NIK_CONTENT_CREATE_ROUTE,دستور اضافی کاربر برای AI
+prompt_field,content_create,Site Description,,siteDescription,string,no,,,wp_options,NIK_CONTENT_CREATE_ROUTE,توضیح سایت از تنظیمات
+prompt_field,content_create,Origin,,origin,string,yes,home_url(),,ApiHandler::data_sanitizer,NIK_CONTENT_CREATE_ROUTE,آدرس callback
+prompt_field,content_create,Post ID,,postID,int,yes,,,ApiHandler::handle_request,NIK_CONTENT_CREATE_ROUTE,ID پست موقت وردپرس
+prompt_field,update,Update Flag,,update,flag,yes,1,,ApiHandler::update_article,NIK_CONTENT_CREATE_ROUTE,فلگ آپدیت مقاله
+prompt_field,update,Partial Update,,partialUpdate,flag,no,1,,ApiHandler::update_article,NIK_CONTENT_CREATE_ROUTE,آپدیت جزئی
+prompt_field,update,Post Content,,postContent,string,yes,,,PostPublisher::get_post,NIK_CONTENT_CREATE_ROUTE,محتوای فعلی پست
+prompt_field,update,Post IDs,postId,postID,array,yes,,,admin-js.js,NIK_CONTENT_CREATE_ROUTE,شناسه پست‌های در حال آپدیت
+prompt_field,keyword_research,Keyword Research Flag,,keywordResearch,flag,yes,1,,ApiHandler::return_keyword_research,NIK_KEYWORD_RESEARCH_ROUTE,فعال‌سازی پیشنهاد عنوان
+prompt_field,keyword_research,Site Description,siteDescription,siteDescription,string,yes,,,keyword_research.php,NIK_KEYWORD_RESEARCH_ROUTE,توضیح سایت
+prompt_field,keyword_research,Blog Titles,,blogTitles,array,yes,,,PostPublisher::get_posts,NIK_KEYWORD_RESEARCH_ROUTE,عناوین پست‌های منتشرشده
+prompt_field,keyword_research,Language,lang,lang,string,no,,,keyword_research.php,NIK_KEYWORD_RESEARCH_ROUTE,زبان
+prompt_field,keyword_research,AI Model,model,model,string,no,gpt,gpt|gemini,keyword_research.php,NIK_KEYWORD_RESEARCH_ROUTE,مدل AI
+prompt_field,site_description,Generate Flag,,generateDescription,flag,yes,1,,ApiHandler::return_site_description,NIK_TOOLS,تولید خودکار توضیح سایت
+prompt_field,site_description,Blog Titles,,blogTitles,array,yes,,,PostPublisher::get_posts,NIK_TOOLS,عناوین پست‌ها
+prompt_field,site_description,Language,,lang,string,yes,get_locale(),,ApiHandler::return_site_description,NIK_TOOLS,زبان سایت
+prompt_field,site_description,AI Model,,model,string,yes,gemini,,ApiHandler::return_site_description,NIK_TOOLS,همیشه gemini
+callback_response,receive,Post ID,,postID,int,yes,,,Niklink server,Receive.php,شناسه پست
+callback_response,receive,Post Content,,postContent,html,yes,,,Niklink server,Receive.php,محتوای HTML مقاله
+callback_response,receive,Featured Image,,image,url,no,,,Niklink server,Receive.php,URL تصویر شاخص
+callback_response,receive,Article Images,,articleImages,array,no,,,Niklink server,Receive.php,URL تصاویر داخل مقاله
+callback_response,receive,Meta Description,,metaDescription,string,no,,,Niklink server,Receive.php,متای توضیحات
+callback_response,receive,Status,,status,string,no,,failed|success,Niklink server,Receive.php,وضعیت تولید
+wp_option,settings,API Key,niklink_seo_api_key,niklink_seo_api_key,string,yes,,,admin/main.php,all endpoints,کلید API Niklink
+wp_option,settings,Site Description,sonic-site-description,sonic-site-description,string,no,,,admin/main.php,prompt context,توضیح کسب‌وکار
+wp_option,settings,SEO Plugin,seo-plugin,sonic-client-seo-plugin,string,no,none,none|yoast|rank_math|all_in_one,admin/main.php,meta description UI,پلاگین SEO نصب‌شده
+wp_option,settings,Hint Settings,,sonic_settings,bool,no,1,,Base.php activate,UI,نمایش راهنما تنظیمات
+wp_option,settings,Hint Content Create,,sonic_content_create,bool,no,1,,Base.php activate,UI,نمایش راهنما ساخت محتوا
+wp_option,settings,Hint Keywords,,sonic_keywords,bool,no,1,,Base.php activate,UI,نمایش راهنما Assistant
+wp_option,settings,Hint Posts,,sonic_posts,bool,no,1,,Base.php activate,UI,نمایش راهنما پست‌ها
+post_meta,status,Processing State,,sonic_post_update,string,no,,processing|updated|canceled-remote,ApiHandler,Receive,وضعیت تولید محتوا
+dev_constant,config,GHOST,GHOST,SONIC_END_POINT,bool,no,false,true|dev.me,src/Base.php,api endpoint,محیط توسعه
+dev_constant,config,Direct Request,SOINC_DIRECT_REQUEST,SOINC_DIRECT_REQUEST,bool,no,false,true,src/ApiHandler.php,ajax response,برگرداندن پاسخ خام API
+ai_model,config,GPT-5,,gpt,string,,,gpt,src/Base.php,all,مدل ChatGPT
+ai_model,config,Gemini,,gemini,string,,,gemini,src/Base.php,all,مدل Gemini
+prompt_system,note,System Prompt,,,none,N/A,N/A,N/A,N/A,Niklink Server,پرامت سیستمی در این repo وجود ندارد — فقط روی سرور Niklink

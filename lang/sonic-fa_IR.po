@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sonic (Your AI Agent)\n"
+"POT-Creation-Date: 2026-02-01 15:12+0330\n"
+"PO-Revision-Date: 2026-02-01 15:14+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sonic.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/ai-content-creator.php:44
+msgid "Specify the article title"
+msgstr "عنوان مقاله را مشخص کنید"
+
+#: admin/ai-content-creator.php:46
+msgid ""
+"The article title is the most important factor in determining SEO. You can "
+"use <a target=\"_blank\" href=\"https://niklinkagency.com/blog/search-engine-"
+"optimization/choosing-an-article-title-for-seo-success/\">this article</a> "
+"for guidance in selecting one."
+msgstr ""
+"عنوان مقاله مهم ترین عامل تعیین کننده سئو است. می توانید از   <a target="
+"\"_blank\" href=\"https://niklinkagency.com/blog/search-engine-optimization/"
+"choosing-an-article-title-for-seo-success/\">این مقاله</a>  برای انتخاب "
+"استفاده کنید."
+
+#: admin/ai-content-creator.php:54
+msgid "Article slug"
+msgstr "نامک مقاله"
+
+#: admin/ai-content-creator.php:56
+msgid "You can leave it empty"
+msgstr "می‌توانید این قسمت را خالی بگذارید"
+
+#: admin/ai-content-creator.php:66
+msgid "Specify your keywords"
+msgstr "کلمات کلیدی خود را مشخص کنید"
+
+#: admin/ai-content-creator.php:67
+msgid ""
+"For example: buy mobile phone, online English training, online gold purchase, "
+"water pump price(Separate keywords with ENTER)"
+msgstr ""
+"مثلاً خرید گوشی موبایل، آموزش آنلاین انگلیسی، خرید اینترنتی طلا، قیمت پمپ "
+"آب(کلمات کلیدی را با ENTER جدا کنید)"
+
+#: admin/ai-content-creator.php:78
+msgid "Specify the article category"
+msgstr "دسته بندی مقاله را مشخص کنید."
+
+#: admin/ai-content-creator.php:79
+msgid "Select the category in which the article will be published."
+msgstr "دسته بندی که مقاله در آن منتشر می شود را انتخاب کنید."
+
+#: admin/ai-content-creator.php:101
+msgid "What should the tone of the article be?"
+msgstr "لحن مقاله به چه شکل باشد؟"
+
+#: admin/ai-content-creator.php:104
+msgid "Friendly"
+msgstr "صمیمی"
+
+#: admin/ai-content-creator.php:106
+msgid "Formal"
+msgstr "رسمی"
+
+#: admin/ai-content-creator.php:110
+msgid "Minimum word count"
+msgstr "حداقل تعداد کلمات"
+
+#: admin/ai-content-creator.php:114
+msgid "Maximum word count"
+msgstr "حداکثر تعداد کلمات"
+
+#: admin/ai-content-creator.php:118
+msgid "Who is your audience?"
+msgstr "مخاطب شما کیست؟"
+
+#: admin/ai-content-creator.php:120
+msgid "For example: young people, professionals, parents, students, or fans"
+msgstr "مثلاً جوانان، متخصصان، والدین، دانش آموزان، یا هواداران"
+
+#: admin/ai-content-creator.php:125
+msgid "Specify related links in the article"
+msgstr "لینک های مرتبط را در مقاله مشخص کنید."
+
+#: admin/ai-content-creator.php:126
+msgid "Specify the links you want to be referenced in the article"
+msgstr "لینک هایی که میخواهید در مقاله به آن اشاره شود، مشخص کنید."
+
+#: admin/ai-content-creator.php:136
+msgid "how many images do you need inside article?"
+msgstr "چه تعداد عکس برای داخل نوشته لازم دارید؟"
+
+#: admin/ai-content-creator.php:144
+msgid "Do you need meta description?"
+msgstr "متا دیسکریپشن لازم دارید؟"
+
+#: admin/ai-content-creator.php:147
+msgid "Yes"
+msgstr "بله"
+
+#: admin/ai-content-creator.php:152 admin/keyword_research.php:87
+msgid "Do you need a featured image?"
+msgstr " آیا به تصویر شاخص نیاز دارید؟"
+
+#: admin/ai-content-creator.php:155
+msgid "1 more token will be used"
+msgstr "1 توکن بیشتر استفاده می شود"
+
+#: admin/ai-content-creator.php:162
+msgid "Which Ai should be used?"
+msgstr "از کدام هوش مصنوعی استفاده شود؟"
+
+#: admin/ai-content-creator.php:166
+msgid "ChatGPT"
+msgstr "جی پی تی"
+
+#: admin/ai-content-creator.php:170 src/Base.php:43
+msgid "Gemini"
+msgstr "جمینای"
+
+#: admin/ai-content-creator.php:175
+msgid "Specify the post publication status."
+msgstr " وضعیت انتشار پست را مشخص کنید."
+
+#: admin/ai-content-creator.php:179
+msgid "Publish"
+msgstr "انتشار"
+
+#: admin/ai-content-creator.php:183
+msgid "Draft"
+msgstr "پیش نویس"
+
+#: admin/ai-content-creator.php:187
+msgid "Schedule publication (coming soon)"
+msgstr "زمانبندی انتشار(بزودی)"
+
+#: admin/ai-content-creator.php:197
+msgid "Select language"
+msgstr "انتخاب زبان"
+
+#: admin/ai-content-creator.php:204
+msgid "Custom prompt"
+msgstr "پرامپت اختصاصی"
+
+#: admin/ai-content-creator.php:205
+msgid ""
+"if you have custom instructions for the post generation insert it here "
+"(optional)"
+msgstr ""
+"اگر دستورالعمل خاصی برای ایجاد این نوشته دارید، از این قسمت استفاده کنید "
+"(اختیاری)"
+
+#: admin/ai-content-creator.php:213
+msgid "Creating content"
+msgstr "در حال ساخت محتوا"
+
+#: admin/ai-content-creator.php:230
+msgid "Previous Step"
+msgstr " مرحله قبل"
+
+#: admin/ai-content-creator.php:232 callbacks/NikCallBacks.php:19
+msgid "Next Step"
+msgstr "مرحله بعد"
+
+#: admin/ai-content-creator.php:255 admin/keyword_research.php:140
+#: admin/main.php:169 admin/posts.php:169
+msgid "close hint"
+msgstr "بستن راهنما"
+
+#: admin/ai-content-creator.php:256 admin/keyword_research.php:141
+#: admin/main.php:170 admin/posts.php:170
+msgid "Don`t show hint"
+msgstr "دیگر نمایش نده"
+
+#: admin/keyword_research.php:28
+msgid ""
+"to use this option first you have to write a description about your site in "
+"settings."
+msgstr ""
+"جهت استفاده از این سرویس لازم است بخش توضیح سایت را در تنظیمات تکمیل کنید."
+
+#: admin/keyword_research.php:29
+msgid "click here"
+msgstr "اینجا کلیک کنید"
+
+#: admin/keyword_research.php:33
+msgid "AI Model"
+msgstr "مدل هوش مصنوعی"
+
+#: admin/keyword_research.php:53
+msgid "suggest post title"
+msgstr "پیشنهاد مقاله"
+
+#: admin/keyword_research.php:56
+msgid "Download Excel"
+msgstr "دانلود خروجی اکسل"
+
+#: admin/keyword_research.php:70 callbacks/Menu.php:36 callbacks/Menu.php:37
+#: callbacks/NikCallBacks.php:32
+msgid "Create Post"
+msgstr "ایجاد نوشته"
+
+#: admin/keyword_research.php:71
+msgid "Go to advanced post create ›"
+msgstr "برو به تولید محتوای پیشرفته ›"
+
+#: admin/keyword_research.php:74
+msgid "Article Title"
+msgstr "عنوان مقاله"
+
+#: admin/keyword_research.php:78 admin/posts.php:197
+msgid "Select the Ai model"
+msgstr "مدل هوش مصنوعی را انتخاب کنید"
+
+#: admin/keyword_research.php:91
+msgid "2 tokens will be used"
+msgstr "2 توکن استفاده خواهد شد"
+
+#: admin/keyword_research.php:96
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: admin/keyword_research.php:100
+msgid "Post Category"
+msgstr "دسته بندی"
+
+#: admin/keyword_research.php:121
+msgid "Create post"
+msgstr "ایجاد نوشته"
+
+#: admin/keyword_research.php:122 admin/posts.php:215 admin/posts.php:235
+msgid "Cancel"
+msgstr "بستن"
+
+#: admin/keyword_research.php:130
+msgid "post is being generated!"
+msgstr "پست در حال ایجاد است!"
+
+#: admin/keyword_research.php:131
+msgid "show status"
+msgstr "نمایش وضعیت"
+
+#: admin/main.php:14
+msgid "API Key saved successfully."
+msgstr "کلید اتصال با موفقیت ذخیره شد."
+
+#: admin/main.php:30
+msgid "REST API is disabled in your wordpress or theme or by any plugin."
+msgstr "قابلیت رست در وردپرس شما (توسط قالب یا افزونه) غیر فعال شده است."
+
+#: admin/main.php:36
+msgid "you should enable default publish post category. settings -> writing"
+msgstr ""
+"لازم است در بخش تنظیمات -> نوشتن، دسته بندی پیش فرض مقالات را تعیین کنید."
+
+#: admin/main.php:74
+msgid "Sonic Settings"
+msgstr "تنظیمات سونیک"
+
+#: admin/main.php:78
+msgid ""
+"Before you start, you must receive your API code from Nicklink and then "
+"register it. To do this, simply click on the Get API KEY button at the bottom "
+"of this page."
+msgstr ""
+"برای استفاده از افزونه، لازم است ابتدا کلید اتصال را تهیه کنید. برای اینکار "
+"می توانید از دکمه دریافت کلید اتصال در پایین این صفحه استفاده کنید."
+
+#: admin/main.php:94
+msgid "API Key"
+msgstr "کلید اتصال"
+
+#: admin/main.php:104
+msgid "Site Description"
+msgstr "توضیح سایت"
+
+#: admin/main.php:106
+msgid "Auto generate"
+msgstr "تولید اتوماتیک"
+
+#: admin/main.php:109
+msgid "describe your business in a few sentences"
+msgstr "نوع فعالیت سایت را به شکل مختصر توضیح دهید"
+
+#: admin/main.php:111
+msgid "This option is required for Assistant tools"
+msgstr "این گزینه برای ابزار دستیار، الزامی است"
+
+#: admin/main.php:114
+msgid "Seo Plugin"
+msgstr "افزونه سئو"
+
+#: admin/main.php:116
+msgid "None"
+msgstr "هیچ کدام"
+
+#: admin/main.php:117
+msgid "Yoast"
+msgstr "یوست"
+
+#: admin/main.php:118
+msgid "Rank Math"
+msgstr "رنک مت"
+
+#: admin/main.php:119
+msgid "All in ONE"
+msgstr "All in one"
+
+#: admin/main.php:122
+msgid "If you have Seo Plugin Select it here"
+msgstr "اگر افزونه سئو دارید، مشخص کنید"
+
+#: admin/main.php:133
+msgid "View tutorial"
+msgstr "آموزش کار با افزونه"
+
+#: admin/main.php:135
+msgid "Get API key"
+msgstr "دریافت کلید اتصال"
+
+#: admin/main.php:141
+msgid "Remaining Tokens: "
+msgstr "توکن های باقی مانده:"
+
+#: admin/main.php:144
+msgid ""
+"Insufficient tokens. in order to use the application you have to buy more "
+"tokens."
+msgstr "توکن کافی نیست. به منظور استفاده از افزونه لازم است توکن تهیه کنید."
+
+#: admin/main.php:147
+msgid "API key is not valid or the account suspended"
+msgstr "کلید اتصال صحیح نیست یا حساب کاربری شما مسدود شده است."
+
+#: admin/posts.php:31 callbacks/NikCallBacks.php:31
+msgid "Updating Posts"
+msgstr "به‌روزرسانی نوشته ها"
+
+#: admin/posts.php:36 admin/posts.php:99 callbacks/NikCallBacks.php:26
+msgid "Title"
+msgstr "عنوان"
+
+#: admin/posts.php:37 admin/posts.php:100 callbacks/NikCallBacks.php:27
+msgid "Publish Date"
+msgstr "تاریخ انتشار"
+
+#: admin/posts.php:38 admin/posts.php:101 callbacks/NikCallBacks.php:28
+msgid "Modify Date"
+msgstr "تاریخ بروز رسانی"
+
+#: admin/posts.php:39 admin/posts.php:102 callbacks/NikCallBacks.php:29
+msgid "Author"
+msgstr "نویسنده"
+
+#: admin/posts.php:40 admin/posts.php:103 callbacks/NikCallBacks.php:30
+msgid "Actions"
+msgstr "عملیات"
+
+#: admin/posts.php:53 callbacks/NikCallBacks.php:24
+msgid "Cancel Process"
+msgstr "لغو"
+
+#: admin/posts.php:94
+msgid "All Posts"
+msgstr "نوشته ها"
+
+#: admin/posts.php:116
+msgid "New article"
+msgstr "مقاله جدید"
+
+#: admin/posts.php:118
+msgid "Update suggested"
+msgstr "بروز رسانی توصیه می شود"
+
+#: admin/posts.php:120
+msgid "Old content"
+msgstr "محتوای قدیمی"
+
+#: admin/posts.php:132
+msgid "Update"
+msgstr "بروز رسانی"
+
+#: admin/posts.php:150
+msgid "« Prev Page"
+msgstr "« صفحه قبل"
+
+#: admin/posts.php:151
+msgid "Next Page »"
+msgstr "صفحه بعد »"
+
+#: admin/posts.php:157
+msgid "No posts found."
+msgstr "هیچ پستی یافت نشد."
+
+#: admin/posts.php:184
+msgid "Update Post"
+msgstr "بروز رسانی نوشته"
+
+#: admin/posts.php:187
+msgid "Specify the update type (2 tokens)"
+msgstr "نوع آپدیت را مشخص کنید (مصرف 2 توکن)"
+
+#: admin/posts.php:190
+msgid "Partial update"
+msgstr "آپدیت جزئی"
+
+#: admin/posts.php:195
+msgid "Whole article update"
+msgstr "بروز رسانی کلی"
+
+#: admin/posts.php:210
+msgid ""
+"⚠️ Whole article updates are not recommended unless you know exactly what you "
+"are doing!"
+msgstr "⚠️ در صورتی که نمیدانید، بروز رسانی کلی نوشته توصیه نمیشود!"
+
+#: admin/posts.php:214 admin/posts.php:234
+msgid "Confirm"
+msgstr "تایید"
+
+#: admin/posts.php:227
+msgid "Cancel update"
+msgstr "لغو به‌روزرسانی"
+
+#: admin/posts.php:230
+msgid " By this action, used tokens will not be refunded!"
+msgstr "با انجام این عمل، توکن‌های مصرف‌شده بازگردانده نمی‌شوند."
+
+#: callbacks/Menu.php:16 callbacks/Menu.php:17
+msgid "Sonic"
+msgstr "سونیک"
+
+#: callbacks/Menu.php:26 callbacks/Menu.php:27 sonic.php:19
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: callbacks/Menu.php:45 callbacks/Menu.php:46
+msgid "Assistant"
+msgstr "دستیار"
+
+#: callbacks/Menu.php:54 callbacks/Menu.php:55
+msgid "Posts"
+msgstr "نوشته ها"
+
+#: callbacks/NikCallBacks.php:17
+msgid "show posts"
+msgstr "مشاهده نوشته ها"
+
+#: callbacks/NikCallBacks.php:18
+msgid "Final Submit"
+msgstr "ثبت نهایی"
+
+#: callbacks/NikCallBacks.php:20
+msgid "Link Title"
+msgstr "عنوان لینک"
+
+#: callbacks/NikCallBacks.php:21
+msgid "Destination URL"
+msgstr "مقصد لینک"
+
+#: callbacks/NikCallBacks.php:22
+msgid "Recently updated"
+msgstr "به تازگی بروز شد"
+
+#: callbacks/NikCallBacks.php:23
+msgid "Updating"
+msgstr "به‌روزرسانی نوشته ها"
+
+#: callbacks/NikCallBacks.php:25
+msgid "Updated"
+msgstr "بروز رسانی شد"
+
+#: callbacks/NikCallBacks.php:33
+msgid "Post Requested"
+msgstr "در حال ایجاد"
+
+#: src/ApiHandler.php:22 src/ApiHandler.php:38
+msgid "Please insert your API key in settings"
+msgstr "لطفاً کلید اتصال را در بخش تنظیمات افزونه وارد کنید."
+
+#: src/ApiHandler.php:74
+msgid "Title is required"
+msgstr "عنوان الزامی است."
+
+#: src/ApiHandler.php:122
+msgid "Success! Post is being Generated, You can leave this page."
+msgstr "موفقیت‌آمیز بود! پست در حال ایجاد است، می‌توانید این صفحه را ترک کنید."
+
+#: src/ApiHandler.php:137
+msgid "Post didnt create, please try again"
+msgstr "پست ایجاد نشد، لطفاً دوباره تلاش کنید. "
+
+#: src/ApiHandler.php:200
+msgid ""
+"Post is being Updated, You can leave this page. we will inform you once it is "
+"ready"
+msgstr ""
+"پست در حال به‌روزرسانی است. می‌توانید از این صفحه خارج شوید، پس از آماده شدن به "
+"شما اطلاع داده می‌شود."
+
+#: src/ApiHandler.php:225
+msgid "Update canceled"
+msgstr "بروز رسانی توصیه می شود"
+
+#: src/ApiHandler.php:262
+msgid "No posts found"
+msgstr "هیچ پستی یافت نشد."
+
+#: src/ApiHandler.php:276
+msgid "Please fill site description in settings"
+msgstr "لطفاً توضیحات سایت را در بخش تنظیمات افزونه وارد کنید."
+
+#: src/ApiHandler.php:323 src/ApiHandler.php:464
+msgid "Some thing went Wrong! please try again later or choose another model!"
+msgstr "مشکلی پیش آمده! لطفاً بعدا امتحان کنید و یا یک مدل دیگر را انتخاب کنید!"
+
+#: src/Base.php:39
+msgid "GPT-5"
+msgstr "جی پی تی 5"
+
+#: src/Base.php:49
+msgid ""
+"Thank you for choosing Sonic! Here you should enter your API key. once it "
+"approves you have access to all of our tools. Hope you enjoy!"
+msgstr ""
+"ممنون بابت انتخاب سونیک! اینجا باید کلید اتصال خود را وارد کنید. پس از اتصال "
+"موفق، به تمام ابزار های ما دسترسی خواهید داشت. امیدواریم لذت ببرید!"
+
+#: src/Base.php:50
+msgid ""
+"Easily create a SEO-optimized post with this tool, using your preferred title "
+"and custom settings."
+msgstr ""
+"توسط این ابزار به آسانی یک مقاله سئو شده با عنوان مورد نظر و تنظیمات اختصاصی "
+"ایجاد کنید."
+
+#: src/Base.php:51
+msgid ""
+"This tool analyzes your website and posts, then suggest new post titles for "
+"your website. You can even publish the new post instantly!"
+msgstr ""
+"این ابزار، سایت و مقاله های شما را آنالیز کرده و با توجه به آن تعدادی عنوان "
+"به شما پیشنهاد می دهد. سپس می توانید با یک کلیک مقاله پیشنهادی را منتشر کنید."
+
+#: src/Base.php:52
+msgid ""
+"Here you can see published posts and the posts being generated. it could take "
+"some time to create a post but we assure you the outcome is spectacular"
+msgstr ""
+"اینجا می توانید نوشته های قدیمی و نوشته های در حال انتشار را مشاهده کنید. "
+"ممکن است انتشار نوشته جدید مدتی زمان ببرد اما به شما قول می دهیم نتیجه خیره "
+"کننده خواهد بود!"
+
+#: src/Receive.php:76
+msgid "Post successfully created"
+msgstr "نوشته با موفقیت منتشر شد."
+
+#: src/Receive.php:83
+msgid "Post creation failed."
+msgstr "ایجاد نوشته با مشکل روبرو شد."
+
+#: src/Receive.php:102
+msgid "API Key is not valid"
+msgstr "کلید API معتبر نیست. "
+
+#: src/Receive.php:112
+msgid "post ID is incorrect"
+msgstr "شناسه پست نادرست است."
+
+#: src/Receive.php:117
+msgid "post is not authorized to edit"
+msgstr "اجازه ویرایش پست وجود ندارد. "
+
+#. Plugin Name of the plugin/theme
+msgid "Sonic (Your AI Agent)"
+msgstr "سونیک (دستیار هوش مصنوعی)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://niklinkagency.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A sophisticated AI-powered plugin that generates new posts and seamlessly "
+"updates existing content on your website. With just one Click!"
+msgstr ""
+"یک دستیار هوش مصنوعی کامل برای سایت شما که مقالات جدید ایجاد کرده و مقالات "
+"قدیمی را آپدیت می کند. تنها با یک کلیک!"
+
+#. Author of the plugin/theme
+msgid "Niklink"
+msgstr "نیک لینک"
+
+#~ msgid "Smart Writer"
+#~ msgstr "نویسنده هوشمند"
+
+#~ msgid "Content Creator"
+#~ msgstr "تولید محتوا"
+
+#~ msgid "Keyword Research"
+#~ msgstr "کلمه کلیدی"
+
+#~ msgid "Invalid data Received"
+#~ msgstr "داده های دریافت شده مشکل دارد."
+
+#~ msgid "Post successfully updated"
+#~ msgstr "نوشته با موفقیت بروز رسانی شد."
+
+#~ msgid "Post update failed."
+#~ msgstr "بروز رسانی نوشته با مشکل روبرو شد."
+
+#~ msgid "Niklink SEO Settings"
+#~ msgstr "تنظیمات سونیک"
